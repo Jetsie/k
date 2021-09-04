@@ -6,3 +6,6 @@ from .models import Greeting
 # Create your views here.
 def index(request):
     return render(request, "index.html")
+
+def sw(request):
+    return render(request, "sw.js")
