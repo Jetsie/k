@@ -4,7 +4,7 @@
   "display": "fullscreen",
   "icons": [
     {
-      "src": "icon/icon-192x192.png",
+      "src": "{% load static %} <img src=\"{% static \"icon/icon-192x192.png\" %}\" alt=\"home\" />",
       "sizes": "192x192",
       "type": "image/png"
     }
