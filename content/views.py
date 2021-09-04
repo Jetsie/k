@@ -4,9 +4,9 @@ from django.http import HttpResponse
 from .models import Greeting
 
 # Create your views here.
-def index(request):
+def home(request):
     # return HttpResponse('Hello from Python!')
-    return render(request, "index.html")
+    return render(request, "home.html")
 
 
 def db(request):
