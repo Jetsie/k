@@ -12,7 +12,6 @@ import content.views
 urlpatterns = [
     path("", content.views.index, name="index.html"),
     path("index.html", content.views.index, name="index.html"),
-    path("sw.js", content.views.sw, name="sw.js"),
     path("admin/", admin.site.urls),
 ]
 
